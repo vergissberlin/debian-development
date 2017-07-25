@@ -7,7 +7,6 @@ jobs:
   - get:        resource-docker-debian
     trigger:    true
   - get:        resource-git-debian-development
-    trigger:    true
   - put:        resource-docker-debian-development
     params:
       build:    resource-git-debian-development
