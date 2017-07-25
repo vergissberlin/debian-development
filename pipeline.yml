@@ -1,0 +1,24 @@
+---
+jobs:
+- name:         debian-image
+  public:       true
+  serial:       true
+  plan:
+  - get:        resource-docker
+    trigger:    true
+  - put:        resource-debian-development
+    params:
+      build:    resource-debian-git
+
+resources:
+- name:         resource-docker
+  type:         docker-image
+  source:
+    repository: debian
+- name:         resource-debian-development
+  type:         docker-image
+  source:
+    email:      {{docker-hub-email}}
+    username:   {{docker-hub-username}}
+    password:   {{docker-hub-password}}
+    repository: {{docker-hub-image-dummy-resource}}
