@@ -4,18 +4,24 @@ jobs:
   public:       true
   serial:       true
   plan:
-  - get:        resource-docker
+  - get:        resource-docker-debian
     trigger:    true
-  - put:        resource-debian-development
+  - get:        resource-git-debian-development
+    trigger:    true
+  - put:        resource-docker-debian-development
     params:
-      build:    resource-debian-git
+      build:    resource-git-debian-development
 
 resources:
-- name:         resource-docker
+- name:         resource-git-debian-development
+  type:         git
+  source:
+    uri:        https://github.com/vergissberlin/debian-development.git
+- name:         resource-docker-debian
   type:         docker-image
   source:
     repository: debian
-- name:         resource-debian-development
+- name:         resource-docker-debian-development
   type:         docker-image
   source:
     email:      {{docker-hub-email}}
