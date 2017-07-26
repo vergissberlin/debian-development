@@ -2,20 +2,22 @@
 
     Docker debian image to use for development, testing and deployment.
 
-| Docker base image | Docker image            | Tag               |
-| ----------------- | ----------------------- | ----------------- |
-| [debian][1]       | [debian-development][2] | [latest][3]       |
-| [debian][1]       | [debian-development][2] | [stretch-slim][3] |
+| Docker base image | Docker image            | Tag               | Size   |
+| ----------------- | ----------------------- | ----------------- | ------ |
+| [debian][1]       | [debian-development][2] | [latest][3]       | ![][4] |
+| [debian][1]       | [debian-development][2] | [stretch-slim][3] | ![][5] |
 
 [1]: https://hub.docker.com/_/debian/
 [2]: https://hub.docker.com/r/vergissberlin/debian-development/
 [3]: https://hub.docker.com/r/vergissberlin/debian-development/tags/
+[4]: https://images.microbadger.com/badges/image/vergissberlin/debian-development.svg
+[5]: https://images.microbadger.com/badges/image/vergissberlin/debian-development:stretch-slim.svg
 
 ## Promise
 
 > You will **always get the latest** build from the base image with additional installed packages. 
 > An [concourse ci](http://concourse.ci) instance is watching on changes. It starts to rebuild the image and push it to the registry immediately.
-  
+
 
 ## Installed packages
 
