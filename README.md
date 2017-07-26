@@ -17,7 +17,7 @@
 > An [concourse ci](http://concourse.ci) instance is watching on changes. It starts to rebuild the image and push it to the registry immediately.
   
 
-## Installed packaged
+## Installed packages
 
 | Package       | Description                                                                                                |
 | ------------- | ---------------------------------------------------------------------------------------------------------- | 
