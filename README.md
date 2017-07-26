@@ -32,7 +32,7 @@
 ## Usage
 
         docker run -it vergissberlin/debian-development:latest bash
-        docker run -it vergissberlin/debian-development:edge bash
+        docker run -it vergissberlin/debian-development:stretch-slim bash
 
 ### Docker registry
 
