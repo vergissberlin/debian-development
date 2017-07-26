@@ -2,10 +2,10 @@
 
     Docker debian image to use for development, testing and deployment.
 
-| Docker base image | Docker image            | Tag            |
-| ----------------- | ----------------------- | -------------- |
-| [debian][1]       | [debian-development][2] | [latest][3]    |
-| [debian][1]       | [debian-development][2] | [edge][3]      |
+| Docker base image | Docker image            | Tag               |
+| ----------------- | ----------------------- | ----------------- |
+| [debian][1]       | [debian-development][2] | [latest][3]       |
+| [debian][1]       | [debian-development][2] | [stretch-slim][3] |
 
 [1]: https://hub.docker.com/_/debian/
 [2]: https://hub.docker.com/r/vergissberlin/debian-development/
