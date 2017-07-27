@@ -1,6 +1,6 @@
 # debian-development
 
-    Docker debian image to use for development, testing and deployment.
+> Docker debian image to use for development, testing and deployment.
 
 | Docker base image | Docker image            | Tag               | Size   |
 | ----------------- | ----------------------- | ----------------- | ------ |
