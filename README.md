@@ -2,16 +2,17 @@
 
 > Docker debian image to use for development, testing and deployment.
 
-| Docker base image | Docker image            | Tag               | Size   |
-| ----------------- | ----------------------- | ----------------- | ------ |
-| [debian][1]       | [debian-development][2] | [latest][3]       | ![][4] |
-| [debian][1]       | [debian-development][2] | [stretch-slim][3] | ![][5] |
+| Docker base image | Docker image            | Tag               | Size   | Pulls  |
+| ----------------- | ----------------------- | ----------------- | ------ | ------ |
+| [debian][1]       | [debian-development][2] | [latest][3]       | ![][4] | ![][6] |
+| [debian][1]       | [debian-development][2] | [stretch-slim][3] | ![][5] |        |
 
 [1]: https://hub.docker.com/_/debian/
 [2]: https://hub.docker.com/r/vergissberlin/debian-development/
 [3]: https://hub.docker.com/r/vergissberlin/debian-development/tags/
 [4]: https://images.microbadger.com/badges/image/vergissberlin/debian-development.svg
 [5]: https://images.microbadger.com/badges/image/vergissberlin/debian-development:stretch-slim.svg
+[6]: https://img.shields.io/docker/pulls/vergissberlin/debian-development.svg
 
 ## Promise
 
