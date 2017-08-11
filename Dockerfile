@@ -1,5 +1,9 @@
 FROM debian
 
+LABEL "de.andrelademann"="André Lademann" \
+	version="0.0.3" \
+	description="Docker debian image to use for development, testing and deployment."
+
 RUN apt-get update &&\
     apt-get install -y \
 	bats \
@@ -8,5 +12,6 @@ RUN apt-get update &&\
 	git-core \
 	make \
 	mc \
+	siege \
 	wget \
 	vim
