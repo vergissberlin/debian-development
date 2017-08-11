@@ -2,10 +2,10 @@
 
 > Docker debian image to use for development, testing and deployment.
 
-| Docker base image | Docker image            | Tag               | Size   | Pulls  | Build  | Status |
-| ----------------- | ----------------------- | ----------------- | ------ | ------ | ------ | ------ |
-| [debian][1]       | [debian-development][2] | [latest][3]       | ![][4] | ![][6] | ![][7] | ![][8] |
-| [debian][1]       | [debian-development][2] | [stretch-slim][3] | ![][5] |        |        |        |
+| Docker base image | Docker image            | Tag           | Size   | Pulls  | Build  | Status |
+| ----------------- | ----------------------- | ------------- | ------ | ------ | ------ | ------ |
+| [debian][1]       | [debian-development][2] | [![][9]][11]  | ![][4] | ![][6] | ![][7] | ![][8] |
+| [debian][1]       | [debian-development][2] | [![][10]][12] | ![][5] |        |        |        |
 
 [1]: https://hub.docker.com/_/debian/
 [2]: https://hub.docker.com/r/vergissberlin/debian-development/
@@ -15,6 +15,10 @@
 [6]: https://img.shields.io/docker/pulls/vergissberlin/debian-development.svg?style=flat-square
 [7]: https://img.shields.io/docker/automated/vergissberlin/debian-development.svg?style=flat-square
 [8]: https://img.shields.io/docker/build/vergissberlin/debian-development.svg?style=flat-square
+[9]: https://images.microbadger.com/badges/version/vergissberlin/debian-development.svg
+[10]: https://images.microbadger.com/badges/version/vergissberlin/debian-development:stretch-slim.svg
+[11]: https://microbadger.com/images/vergissberlin/debian-development:latest
+[12]: https://microbadger.com/images/vergissberlin/debian-development:stretch-slim
 
 ## Promise
 
@@ -58,16 +62,16 @@ https://hub.docker.com/r/vergissberlin/debian-development/
 
 | Name                  | Git       | Docker       |
 | --------------------- | --------- | ------------ |
-| alpine-development    | [git][10] | [docker][15] |
-| centos-development    | [git][20] | [docker][25] |
+| alpine-development    | [git][20] | [docker][25] |
+| centos-development    | [git][30] | [docker][35] |
 | fedora-development    | [git][40] | [docker][45] |
 | opensuse-development  | [git][50] | [docker][55] |
 | ubuntu-development    | [git][60] | [docker][65] |
 
-[10]: https://github.com/vergissberlin/alpine-development
-[15]: https://hub.docker.com/r/vergissberlin/alpine-development/
-[20]: https://github.com/vergissberlin/centos-development
-[25]: https://hub.docker.com/r/vergissberlin/centos-development/
+[20]: https://github.com/vergissberlin/alpine-development
+[25]: https://hub.docker.com/r/vergissberlin/alpine-development/
+[30]: https://github.com/vergissberlin/centos-development
+[35]: https://hub.docker.com/r/vergissberlin/centos-development/
 [40]: https://github.com/vergissberlin/fedora-development
 [45]: https://hub.docker.com/r/vergissberlin/fedora-development/
 [50]: https://github.com/vergissberlin/opensuse-development
