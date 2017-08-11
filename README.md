@@ -12,9 +12,9 @@
 [3]: https://hub.docker.com/r/vergissberlin/debian-development/tags/
 [4]: https://images.microbadger.com/badges/image/vergissberlin/debian-development.svg
 [5]: https://images.microbadger.com/badges/image/vergissberlin/debian-development:stretch-slim.svg
-[6]: https://img.shields.io/docker/pulls/vergissberlin/fedora-development.svg?style=flat-square
-[7]: https://img.shields.io/docker/automated/vergissberlin/fedora-development.svg?style=flat-square
-[8]: https://img.shields.io/docker/build/vergissberlin/fedora-development.svg?style=flat-square
+[6]: https://img.shields.io/docker/pulls/vergissberlin/debian-development.svg?style=flat-square
+[7]: https://img.shields.io/docker/automated/vergissberlin/debian-development.svg?style=flat-square
+[8]: https://img.shields.io/docker/build/vergissberlin/debian-development.svg?style=flat-square
 
 ## Promise
 
