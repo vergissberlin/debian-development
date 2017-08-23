@@ -9,7 +9,7 @@ RUN apt-get update &&\
 	bats \
 	curl \
 	figlet \
-	git-core \
+	git \
 	make \
 	mc \
 	siege \
