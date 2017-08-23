@@ -10,7 +10,7 @@ RUN apt-get update &&\
 	curl \
 	figlet \
 	findutils \
-	git-core \
+	git \
 	make \
 	mc \
 	siege \
