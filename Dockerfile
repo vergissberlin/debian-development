@@ -6,13 +6,13 @@ LABEL "de.andrelademann"="André Lademann" \
 
 RUN apt-get update &&\
     apt-get install -y \
-	bats \
-	curl \
-	figlet \
-	findutils \
-	git \
-	make \
-	mc \
-	siege \
-	wget \
-	vim
+			bats \
+			curl \
+			figlet \
+			findutils \
+			git \
+			make \
+			mc \
+			siege \
+			wget \
+			vim
