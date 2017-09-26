@@ -1,7 +1,7 @@
 FROM debian
 
 LABEL "de.andrelademann"="André Lademann" \
-	version="0.0.3" \
+	version="0.0.4" \
 	description="Docker debian image to use for development, testing and deployment."
 
 RUN apt-get update &&\
