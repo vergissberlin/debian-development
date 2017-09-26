@@ -40,7 +40,7 @@
 | mc            | GNU Midnight Commander (also known as mc) is a free cross-platform orthodox file manager.                  |
 | wget          | GNU Wget is a computer program that retrieves content from web servers.                                    |
 | vim           | Vim is a clone of Bill Joy's vi text editor program for Unix.                                              |
-
+| zip           | The .ZIP file format permits a number of compression algorithms, though DEFLATE is the most common.        |
 
 ## Usage
 
