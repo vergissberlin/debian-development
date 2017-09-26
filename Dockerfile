@@ -15,4 +15,5 @@ RUN apt-get update &&\
 			mc \
 			siege \
 			wget \
-			vim
+			vim \
+			zip
