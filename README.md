@@ -41,6 +41,7 @@
 | siege         | Siege is an open source regression test and benchmark utility. It can stress test a single URL with a user defined number of simulated users, or it can read many URLs into memory and stress them simultaneously. |
 | wget          | GNU Wget is a computer program that retrieves content from web servers.                                    |
 | vim           | Vim is a clone of Bill Joy's vi text editor program for Unix.                                              |
+| zip           | The .ZIP file format permits a number of compression algorithms, though DEFLATE is the most common.        |
 
 
 ## Usage
