@@ -4,6 +4,8 @@ LABEL "de.andrelademann"="André Lademann" \
 	version="0.0.4" \
 	description="Docker debian image to use for development, testing and deployment."
 
+COPY setup/ /
+
 RUN apt-get update &&\
 		apt-get install -y \
 		bash \
