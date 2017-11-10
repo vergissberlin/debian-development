@@ -36,4 +36,4 @@ RUN pip install git+git://github.com/Lokaltog/powerline &&\
 		mv PowerlineSymbols.otf /usr/share/fonts/ &&\
 		mv 10-powerline-symbols.conf /etc/fonts/conf.d/ &&\
 		fc-cache -vf /usr/share/fonts/ &&\
-		echo '. /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh' >> ~.bashrc
+		echo '. /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh' >> ~/.bashrc
