@@ -18,22 +18,19 @@ RUN apt-get update &&\
 		findutils \
 		fontconfig \
 		git \
+		locales \
 		make \
 		mc \
 		python-pip \
 		siege \
+		tmux \
 		wget \
 		vim \
 		zip
 
+RUN locale-gen en_GB.UTF-8
+
 ENV	POWERLINE_BASH_CONTINUATION=1 \
 		POWERLINE_BASH_SELECT=1
 
-RUN pip install git+git://github.com/Lokaltog/powerline &&\
-		wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf &&\
-		wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf &&\
-		mkdir -p /usr/share/fonts &&\
-		mv PowerlineSymbols.otf /usr/share/fonts/ &&\
-		mv 10-powerline-symbols.conf /etc/fonts/conf.d/ &&\
-		fc-cache -vf /usr/share/fonts/ &&\
-		echo '. /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh' >> ~/.bashrc
+RUN pip install git+git://github.com/Lokaltog/powerline
