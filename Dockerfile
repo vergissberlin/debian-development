@@ -21,7 +21,7 @@ RUN apt-get update &&\
 		locales \
 		make \
 		mc \
-		python-pip \
+		powerline \
 		siege \
 		tmux \
 		wget \
@@ -32,5 +32,3 @@ RUN locale-gen en_GB.UTF-8
 
 ENV	POWERLINE_BASH_CONTINUATION=1 \
 		POWERLINE_BASH_SELECT=1
-
-RUN pip install git+git://github.com/Lokaltog/powerline
