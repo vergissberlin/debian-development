@@ -16,19 +16,14 @@ RUN apt-get update &&\
 		curl \
 		figlet \
 		findutils \
-		fontconfig \
 		git \
-		locales \
 		make \
 		mc \
 		powerline \
 		siege \
-		tmux \
 		wget \
 		vim \
 		zip
-
-RUN locale-gen en_GB.UTF-8
 
 ENV	POWERLINE_BASH_CONTINUATION=1 \
 		POWERLINE_BASH_SELECT=1
